@@ -1,5 +1,3 @@
-console.log('Hello world!');
-
 function binarySearch(arr: number[], key: number) {
   let low = 0;
   let high = arr.length;
