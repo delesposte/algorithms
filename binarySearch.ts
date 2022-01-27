@@ -1,11 +1,11 @@
 function binarySearch(arr: number[], key: number) {
   let low = 0;
-  let high = arr.length;
+  let high = arr.length -1;
   let mid = 0;
   let element = 0;
   let times = 0;
 
-  while (low < high) {
+  while (low <= high) {
     mid = Math.floor((low + high) / 2);
     element = arr[mid];
 
