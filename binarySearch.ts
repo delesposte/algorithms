@@ -1,9 +1,9 @@
 function binarySearch(arr: number[], key: number) {
   let low = 0;
   let high = arr.length;
-  let mid;
-  let element;
-  let times = 1;
+  let mid = 0;
+  let element = 0;
+  let times = 0;
 
   while (low < high) {
     mid = Math.floor((low + high) / 2);
@@ -17,7 +17,8 @@ function binarySearch(arr: number[], key: number) {
     else
       return mid;
 
-    console.log('times: ', times++);
+    times++;
+    console.log('times: ', times);
   }
 }
 
