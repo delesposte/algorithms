@@ -7,7 +7,6 @@ function binarySearch(arr: number[], key: number) {
 
   while (low < high) {
     mid = Math.floor((low + high) / 2);
-
     element = arr[mid];
 
     if (element < key)
