@@ -21,6 +21,6 @@ function binarySearch(arr: number[], key: number) {
   }
 }
 
-const arr = [9, 7, 1, 5, 6, 10, 12, 100, 0];
+const arr = [1, 2, 3, 4, 6, 10, 12, 100, 110];
 
 console.log('Result: ', binarySearch(arr, 100));
